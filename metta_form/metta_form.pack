@@ -1,0 +1,14 @@
+﻿#include @"metta_form\metta_form.ph"
+
+#requires @"metta_form\metta_form.frm"
+
+% privately used packages
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+% private classes
+% implementations
+#include @"metta_form\metta_form.pro"
