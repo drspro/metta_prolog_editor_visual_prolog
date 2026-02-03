@@ -1,0 +1,37 @@
+﻿#requires @"editor\editor.frm"
+
+% own pack
+#include @"editor\Editor.ph"
+
+% privately used packages
+#include @"configuration\Configuration.ph"
+#include @"pfc\boolean\boolean.ph"
+#include @"pfc\core.ph"
+#include @"pfc\exception\exception.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\documentWindow\documentWindow.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\htmlHelp\htmlhelp.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\memory\memory.ph"
+#include @"pfc\pie\pieSupport\piesupport.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\vpi\vpiToolbar\vpiToolbar.ph"
+#include @"pfc\windowsApi\fileSystem_api\fileSystem_api.ph"
+#include @"safePie\safepie.ph"
+#include @"taskWindow\taskwindow.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"editor\editor.pro"
+
