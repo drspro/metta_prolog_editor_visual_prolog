@@ -1,0 +1,33 @@
+﻿#include @"bigstr\bigstr.ph"
+
+#requires @"bigstr\bigstr.dlg"
+
+% privately used packages
+#include @"popup_win\popup_win.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\5xVIP\5xString\5xString.ph"
+#include @"pfc\boolean\boolean.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"trans_profile\trans_profile.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"pfc\gui\controls\checkButton\checkButton.ph"
+#include @"editor\Editor.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexerStatusBar\sciLexerStatusBar.ph"
+#include @"configuration\Configuration.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\clipboard\clipboard.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"safePie\safePie.ph"
+#include @"pfc\pie\pie.ph"
+%#include @"pfc\syntax\lrParser\lrParser.ph"
+#include @"pfc\gui\controls\editControl\editControl.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+% private classes
+% implementations
+#include @"bigstr\bigstr.pro"
