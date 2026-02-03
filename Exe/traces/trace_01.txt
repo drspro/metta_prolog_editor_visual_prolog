@@ -1,0 +1,1000 @@
+
+Trace: >> CALL: empty_atom = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: check_is_equal([],empty_atom,True)
+Trace: >> CALL: True = True
+Trace: >> RETURN: True = True
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$972)
+Trace: >> RETURN: groupe2(0,[],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0],0,[],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$971)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0],0,[],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$963 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$965)
+Trace: >> RETURN: groupe2(0,[0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0],0,[0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$964)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0],0,[0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$956 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$958)
+Trace: >> RETURN: groupe2(0,[0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0],0,[0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$957)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0],0,[0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$949 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[0,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$951)
+Trace: >> RETURN: groupe2(0,[0,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,0],0,[0,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$950)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0],0,[0,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$942 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0,0,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(7,[0,0,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$944)
+Trace: >> RETURN: groupe2(7,[0,0,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([7,0,0,0,0],7,[0,0,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$943)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0],7,[0,0,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$935 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([7,0,0,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[7,0,0,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$937)
+Trace: >> RETURN: groupe2(0,[7,0,0,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,7,0,0,0,0],0,[7,0,0,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$936)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0],0,[7,0,0,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$928 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0,7,0,0,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(0,[0,7,0,0,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$930)
+Trace: >> RETURN: groupe2(0,[0,7,0,0,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,7,0,0,0,0],0,[0,7,0,0,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$929)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0],0,[0,7,0,0,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$921 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([0,0,7,0,0,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(3,[0,0,7,0,0,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$923)
+Trace: >> RETURN: groupe2(3,[0,0,7,0,0,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([3,0,0,7,0,0,0,0],3,[0,0,7,0,0,0,0],[5,True,3,0,9,0,0,0,6,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],OUTVX2$922)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([3,5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0],3,[0,0,7,0,0,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$914 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([3,0,0,7,0,0,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(5,[3,0,0,7,0,0,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$916)
+Trace: >> RETURN: groupe2(5,[3,0,0,7,0,0,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([5,3,0,0,7,0,0,0,0],5,[3,0,0,7,0,0,0,0],[True,3,0,9,0,0,0,6,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,True,3,0,9,0,0,0,6,0,0],OUTVX2$915)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([5,True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0],5,[3,0,0,7,0,0,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: TAIL_NEW$907 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([5,3,0,0,7,0,0,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: groupe2(True,[5,3,0,0,7,0,0,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],OUTVX1$909)
+Trace: >> RETURN: groupe2(True,[5,3,0,0,7,0,0,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([True,5,3,0,0,7,0,0,0,0],True,[5,3,0,0,7,0,0,0,0],[3,0,9,0,0,0,6,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[True,3,0,9,0,0,0,6,0,0],OUTVX2$908)
+Trace: >> RETURN: let_star2([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: let_star2_groupe2([True,3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0],True,[5,3,0,0,7,0,0,0,0],[3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: APP1$848 = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> RETURN: append_lis([True,5,3,0,0,7,0,0,0,0],[3,0,9,0,0,0,6,0,0],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: append_lis([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,3,0,6,0,0,0,9,8],APP2$849)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([5,3,0,6,0,0,0,9,8],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],APP2$849)
+Trace: >> CALL: check_is_equal([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$974)
+Trace: >> CALL: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$975,[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$976,TAIL$977,[5,3,0,6,0,0,0,9,8],TAIL_NEW$978,OUTVX2$979)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$976,TAIL$977,[5,3,0,6,0,0,0,9,8],LIST_NETTX$975,TAIL_NEW$978,OUTVX1$980)
+Trace: >> CALL: car_atom([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$976)
+Trace: >> RETURN: car_atom([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$977)
+Trace: >> RETURN: cdr_atom([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[5,3,0,6,0,0,0,9,8],LIST_NETTX$975)
+Trace: >> RETURN: cons_atom(0,[5,3,0,6,0,0,0,9,8],[0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],TAIL_NEW$978)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,5,3,0,6,0,0,0,9,8],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$978)
+Trace: >> CALL: check_is_equal([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$981)
+Trace: >> CALL: [0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$982,[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$983,TAIL$984,[0,5,3,0,6,0,0,0,9,8],TAIL_NEW$985,OUTVX2$986)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$983,TAIL$984,[0,5,3,0,6,0,0,0,9,8],LIST_NETTX$982,TAIL_NEW$985,OUTVX1$987)
+Trace: >> CALL: car_atom([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$983)
+Trace: >> RETURN: car_atom([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$984)
+Trace: >> RETURN: cdr_atom([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[0,5,3,0,6,0,0,0,9,8],LIST_NETTX$982)
+Trace: >> RETURN: cons_atom(0,[0,5,3,0,6,0,0,0,9,8],[0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$985)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$985)
+Trace: >> CALL: check_is_equal([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$988)
+Trace: >> CALL: [0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$989,[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$990,TAIL$991,[0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$992,OUTVX2$993)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$990,TAIL$991,[0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$989,TAIL_NEW$992,OUTVX1$994)
+Trace: >> CALL: car_atom([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$990)
+Trace: >> RETURN: car_atom([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$991)
+Trace: >> RETURN: cdr_atom([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$989)
+Trace: >> RETURN: cons_atom(0,[0,0,5,3,0,6,0,0,0,9,8],[0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$992)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$992)
+Trace: >> CALL: check_is_equal([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$995)
+Trace: >> CALL: [0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$996,[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$997,TAIL$998,[0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$999,OUTVX2$1000)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$997,TAIL$998,[0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$996,TAIL_NEW$999,OUTVX1$1001)
+Trace: >> CALL: car_atom([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$997)
+Trace: >> RETURN: car_atom([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$998)
+Trace: >> RETURN: cdr_atom([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$996)
+Trace: >> RETURN: cons_atom(0,[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$999)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$999)
+Trace: >> CALL: check_is_equal([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1002)
+Trace: >> CALL: [7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [7,0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [7,0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1003,[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1004,TAIL$1005,[0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1006,OUTVX2$1007)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1004,TAIL$1005,[0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1003,TAIL_NEW$1006,OUTVX1$1008)
+Trace: >> CALL: car_atom([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1004)
+Trace: >> RETURN: car_atom([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],7)
+Trace: >> CALL: cdr_atom([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$1005)
+Trace: >> RETURN: cdr_atom([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(7,[0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1003)
+Trace: >> RETURN: cons_atom(7,[0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1006)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$1006)
+Trace: >> CALL: check_is_equal([0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1009)
+Trace: >> CALL: [0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1010,[0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1011,TAIL$1012,[7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1013,OUTVX2$1014)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1011,TAIL$1012,[7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1010,TAIL_NEW$1013,OUTVX1$1015)
+Trace: >> CALL: car_atom([0,0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1011)
+Trace: >> RETURN: car_atom([0,0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$1012)
+Trace: >> RETURN: cdr_atom([0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1010)
+Trace: >> RETURN: cons_atom(0,[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1013)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$1013)
+Trace: >> CALL: check_is_equal([0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1016)
+Trace: >> CALL: [0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1017,[0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1018,TAIL$1019,[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1020,OUTVX2$1021)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1018,TAIL$1019,[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1017,TAIL_NEW$1020,OUTVX1$1022)
+Trace: >> CALL: car_atom([0,3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1018)
+Trace: >> RETURN: car_atom([0,3,5,True,3,0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,3,5,True,3,0,9,0,0,0,6,0,0],TAIL$1019)
+Trace: >> RETURN: cdr_atom([0,3,5,True,3,0,9,0,0,0,6,0,0],[3,5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1017)
+Trace: >> RETURN: cons_atom(0,[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1020)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$1020)
+Trace: >> CALL: check_is_equal([3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1023)
+Trace: >> CALL: [3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [3,5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [3,5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([3,5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1024,[3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1025,TAIL$1026,[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1027,OUTVX2$1028)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1025,TAIL$1026,[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1024,TAIL_NEW$1027,OUTVX1$1029)
+Trace: >> CALL: car_atom([3,5,True,3,0,9,0,0,0,6,0,0],HEAD$1025)
+Trace: >> RETURN: car_atom([3,5,True,3,0,9,0,0,0,6,0,0],3)
+Trace: >> CALL: cdr_atom([3,5,True,3,0,9,0,0,0,6,0,0],TAIL$1026)
+Trace: >> RETURN: cdr_atom([3,5,True,3,0,9,0,0,0,6,0,0],[5,True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(3,[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1024)
+Trace: >> RETURN: cons_atom(3,[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1027)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,True,3,0,9,0,0,0,6,0,0],TAIL_NEW$1027)
+Trace: >> CALL: check_is_equal([5,True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1030)
+Trace: >> CALL: [5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [5,True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [5,True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([5,True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1031,[5,True,3,0,9,0,0,0,6,0,0],HEAD$1032,TAIL$1033,[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1034,OUTVX2$1035)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([5,True,3,0,9,0,0,0,6,0,0],HEAD$1032,TAIL$1033,[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1031,TAIL_NEW$1034,OUTVX1$1036)
+Trace: >> CALL: car_atom([5,True,3,0,9,0,0,0,6,0,0],HEAD$1032)
+Trace: >> RETURN: car_atom([5,True,3,0,9,0,0,0,6,0,0],5)
+Trace: >> CALL: cdr_atom([5,True,3,0,9,0,0,0,6,0,0],TAIL$1033)
+Trace: >> RETURN: cdr_atom([5,True,3,0,9,0,0,0,6,0,0],[True,3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(5,[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1031)
+Trace: >> RETURN: cons_atom(5,[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1034)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,3,0,9,0,0,0,6,0,0],TAIL_NEW$1034)
+Trace: >> CALL: check_is_equal([True,3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1037)
+Trace: >> CALL: [True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [True,3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [True,3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [True,3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([True,3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1038,[True,3,0,9,0,0,0,6,0,0],HEAD$1039,TAIL$1040,[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1041,OUTVX2$1042)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([True,3,0,9,0,0,0,6,0,0],HEAD$1039,TAIL$1040,[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1038,TAIL_NEW$1041,OUTVX1$1043)
+Trace: >> CALL: car_atom([True,3,0,9,0,0,0,6,0,0],HEAD$1039)
+Trace: >> RETURN: car_atom([True,3,0,9,0,0,0,6,0,0],True)
+Trace: >> CALL: cdr_atom([True,3,0,9,0,0,0,6,0,0],TAIL$1040)
+Trace: >> RETURN: cdr_atom([True,3,0,9,0,0,0,6,0,0],[3,0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(True,[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1038)
+Trace: >> RETURN: cons_atom(True,[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1041)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,9,0,0,0,6,0,0],TAIL_NEW$1041)
+Trace: >> CALL: check_is_equal([3,0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1044)
+Trace: >> CALL: [3,0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [3,0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [3,0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [3,0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([3,0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1045,[3,0,9,0,0,0,6,0,0],HEAD$1046,TAIL$1047,[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1048,OUTVX2$1049)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([3,0,9,0,0,0,6,0,0],HEAD$1046,TAIL$1047,[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1045,TAIL_NEW$1048,OUTVX1$1050)
+Trace: >> CALL: car_atom([3,0,9,0,0,0,6,0,0],HEAD$1046)
+Trace: >> RETURN: car_atom([3,0,9,0,0,0,6,0,0],3)
+Trace: >> CALL: cdr_atom([3,0,9,0,0,0,6,0,0],TAIL$1047)
+Trace: >> RETURN: cdr_atom([3,0,9,0,0,0,6,0,0],[0,9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(3,[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1045)
+Trace: >> RETURN: cons_atom(3,[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1048)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,0,0,6,0,0],TAIL_NEW$1048)
+Trace: >> CALL: check_is_equal([0,9,0,0,0,6,0,0],empty_atom,OUTVX1$1051)
+Trace: >> CALL: [0,9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1052,[0,9,0,0,0,6,0,0],HEAD$1053,TAIL$1054,[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1055,OUTVX2$1056)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,9,0,0,0,6,0,0],HEAD$1053,TAIL$1054,[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1052,TAIL_NEW$1055,OUTVX1$1057)
+Trace: >> CALL: car_atom([0,9,0,0,0,6,0,0],HEAD$1053)
+Trace: >> RETURN: car_atom([0,9,0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,9,0,0,0,6,0,0],TAIL$1054)
+Trace: >> RETURN: cdr_atom([0,9,0,0,0,6,0,0],[9,0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1052)
+Trace: >> RETURN: cons_atom(0,[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([9,0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1055)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,0,0,6,0,0],TAIL_NEW$1055)
+Trace: >> CALL: check_is_equal([9,0,0,0,6,0,0],empty_atom,OUTVX1$1058)
+Trace: >> CALL: [9,0,0,0,6,0,0] = []
+Trace: >> FAIL: [9,0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [9,0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [9,0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([9,0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1059,[9,0,0,0,6,0,0],HEAD$1060,TAIL$1061,[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1062,OUTVX2$1063)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([9,0,0,0,6,0,0],HEAD$1060,TAIL$1061,[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1059,TAIL_NEW$1062,OUTVX1$1064)
+Trace: >> CALL: car_atom([9,0,0,0,6,0,0],HEAD$1060)
+Trace: >> RETURN: car_atom([9,0,0,0,6,0,0],9)
+Trace: >> CALL: cdr_atom([9,0,0,0,6,0,0],TAIL$1061)
+Trace: >> RETURN: cdr_atom([9,0,0,0,6,0,0],[0,0,0,6,0,0])
+Trace: >> CALL: cons_atom(9,[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1059)
+Trace: >> RETURN: cons_atom(9,[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1062)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,6,0,0],TAIL_NEW$1062)
+Trace: >> CALL: check_is_equal([0,0,0,6,0,0],empty_atom,OUTVX1$1065)
+Trace: >> CALL: [0,0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1066,[0,0,0,6,0,0],HEAD$1067,TAIL$1068,[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1069,OUTVX2$1070)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,6,0,0],HEAD$1067,TAIL$1068,[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1066,TAIL_NEW$1069,OUTVX1$1071)
+Trace: >> CALL: car_atom([0,0,0,6,0,0],HEAD$1067)
+Trace: >> RETURN: car_atom([0,0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,0,6,0,0],TAIL$1068)
+Trace: >> RETURN: cdr_atom([0,0,0,6,0,0],[0,0,6,0,0])
+Trace: >> CALL: cons_atom(0,[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1066)
+Trace: >> RETURN: cons_atom(0,[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1069)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0],TAIL_NEW$1069)
+Trace: >> CALL: check_is_equal([0,0,6,0,0],empty_atom,OUTVX1$1072)
+Trace: >> CALL: [0,0,6,0,0] = []
+Trace: >> FAIL: [0,0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1073,[0,0,6,0,0],HEAD$1074,TAIL$1075,[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1076,OUTVX2$1077)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,6,0,0],HEAD$1074,TAIL$1075,[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1073,TAIL_NEW$1076,OUTVX1$1078)
+Trace: >> CALL: car_atom([0,0,6,0,0],HEAD$1074)
+Trace: >> RETURN: car_atom([0,0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,0,6,0,0],TAIL$1075)
+Trace: >> RETURN: cdr_atom([0,0,6,0,0],[0,6,0,0])
+Trace: >> CALL: cons_atom(0,[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1073)
+Trace: >> RETURN: cons_atom(0,[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1076)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0],TAIL_NEW$1076)
+Trace: >> CALL: check_is_equal([0,6,0,0],empty_atom,OUTVX1$1079)
+Trace: >> CALL: [0,6,0,0] = []
+Trace: >> FAIL: [0,6,0,0] = []
+Trace: >> CALL: empty_atom = [0,6,0,0]
+Trace: >> FAIL: empty_atom = [0,6,0,0]
+Trace: >> RETURN: check_is_equal([0,6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1080,[0,6,0,0],HEAD$1081,TAIL$1082,[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1083,OUTVX2$1084)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,6,0,0],HEAD$1081,TAIL$1082,[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1080,TAIL_NEW$1083,OUTVX1$1085)
+Trace: >> CALL: car_atom([0,6,0,0],HEAD$1081)
+Trace: >> RETURN: car_atom([0,6,0,0],0)
+Trace: >> CALL: cdr_atom([0,6,0,0],TAIL$1082)
+Trace: >> RETURN: cdr_atom([0,6,0,0],[6,0,0])
+Trace: >> CALL: cons_atom(0,[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1080)
+Trace: >> RETURN: cons_atom(0,[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([6,0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1083)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0],TAIL_NEW$1083)
+Trace: >> CALL: check_is_equal([6,0,0],empty_atom,OUTVX1$1086)
+Trace: >> CALL: [6,0,0] = []
+Trace: >> FAIL: [6,0,0] = []
+Trace: >> CALL: empty_atom = [6,0,0]
+Trace: >> FAIL: empty_atom = [6,0,0]
+Trace: >> RETURN: check_is_equal([6,0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([6,0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([6,0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1087,[6,0,0],HEAD$1088,TAIL$1089,[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1090,OUTVX2$1091)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([6,0,0],HEAD$1088,TAIL$1089,[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1087,TAIL_NEW$1090,OUTVX1$1092)
+Trace: >> CALL: car_atom([6,0,0],HEAD$1088)
+Trace: >> RETURN: car_atom([6,0,0],6)
+Trace: >> CALL: cdr_atom([6,0,0],TAIL$1089)
+Trace: >> RETURN: cdr_atom([6,0,0],[0,0])
+Trace: >> CALL: cons_atom(6,[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1087)
+Trace: >> RETURN: cons_atom(6,[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0,0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1090)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0],TAIL_NEW$1090)
+Trace: >> CALL: check_is_equal([0,0],empty_atom,OUTVX1$1093)
+Trace: >> CALL: [0,0] = []
+Trace: >> FAIL: [0,0] = []
+Trace: >> CALL: empty_atom = [0,0]
+Trace: >> FAIL: empty_atom = [0,0]
+Trace: >> RETURN: check_is_equal([0,0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1094,[0,0],HEAD$1095,TAIL$1096,[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1097,OUTVX2$1098)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0],HEAD$1095,TAIL$1096,[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1094,TAIL_NEW$1097,OUTVX1$1099)
+Trace: >> CALL: car_atom([0,0],HEAD$1095)
+Trace: >> RETURN: car_atom([0,0],0)
+Trace: >> CALL: cdr_atom([0,0],TAIL$1096)
+Trace: >> RETURN: cdr_atom([0,0],[0])
+Trace: >> CALL: cons_atom(0,[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1094)
+Trace: >> RETURN: cons_atom(0,[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([0],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1097)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0],TAIL_NEW$1097)
+Trace: >> CALL: check_is_equal([0],empty_atom,OUTVX1$1100)
+Trace: >> CALL: [0] = []
+Trace: >> FAIL: [0] = []
+Trace: >> CALL: empty_atom = [0]
+Trace: >> FAIL: empty_atom = [0]
+Trace: >> RETURN: check_is_equal([0],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0],empty_atom,False)
+Trace: >> CALL: let_star2_groupe2(LIST_NETTX$1101,[0],HEAD$1102,TAIL$1103,[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1104,OUTVX2$1105)
+Trace: >> CALL: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0],HEAD$1102,TAIL$1103,[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1101,TAIL_NEW$1104,OUTVX1$1106)
+Trace: >> CALL: car_atom([0],HEAD$1102)
+Trace: >> RETURN: car_atom([0],0)
+Trace: >> CALL: cdr_atom([0],TAIL$1103)
+Trace: >> RETURN: cdr_atom([0],[])
+Trace: >> CALL: cons_atom(0,[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIST_NETTX$1101)
+Trace: >> RETURN: cons_atom(0,[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: append_lis([],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1104)
+Trace: >> CALL: condition_if_check_is_equal_let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[],TAIL_NEW$1104)
+Trace: >> CALL: check_is_equal([],empty_atom,OUTVX1$1107)
+Trace: >> CALL: [] = []
+Trace: >> RETURN: [] = []
+Trace: >> CALL: empty_atom = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: check_is_equal([],empty_atom,True)
+Trace: >> CALL: True = True
+Trace: >> RETURN: True = True
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1106)
+Trace: >> RETURN: groupe2(0,[],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0],0,[],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1105)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0],0,[],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1097 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1099)
+Trace: >> RETURN: groupe2(0,[0],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0],0,[0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1098)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0],0,[0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1090 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(6,[0,0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1092)
+Trace: >> RETURN: groupe2(6,[0,0],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([6,0,0],6,[0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1091)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0],6,[0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1083 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([6,0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[6,0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1085)
+Trace: >> RETURN: groupe2(0,[6,0,0],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,6,0,0],0,[6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1084)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0],0,[6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1076 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1078)
+Trace: >> RETURN: groupe2(0,[0,6,0,0],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,6,0,0],0,[0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1077)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0],0,[0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1069 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1071)
+Trace: >> RETURN: groupe2(0,[0,0,6,0,0],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,6,0,0],0,[0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1070)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,6,0,0],0,[0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1062 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(9,[0,0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1064)
+Trace: >> RETURN: groupe2(9,[0,0,0,6,0,0],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([9,0,0,0,6,0,0],9,[0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1063)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,0,0,6,0,0],9,[0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1055 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([9,0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[9,0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1057)
+Trace: >> RETURN: groupe2(0,[9,0,0,0,6,0,0],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,9,0,0,0,6,0,0],0,[9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1056)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,0,0,6,0,0],0,[9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1048 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(3,[0,9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1050)
+Trace: >> RETURN: groupe2(3,[0,9,0,0,0,6,0,0],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([3,0,9,0,0,0,6,0,0],3,[0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1049)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,9,0,0,0,6,0,0],3,[0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1041 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(True,[3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1043)
+Trace: >> RETURN: groupe2(True,[3,0,9,0,0,0,6,0,0],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([True,3,0,9,0,0,0,6,0,0],True,[3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1042)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,3,0,9,0,0,0,6,0,0],True,[3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1034 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(5,[True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1036)
+Trace: >> RETURN: groupe2(5,[True,3,0,9,0,0,0,6,0,0],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([5,True,3,0,9,0,0,0,6,0,0],5,[True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1035)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,True,3,0,9,0,0,0,6,0,0],5,[True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1027 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(3,[5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1029)
+Trace: >> RETURN: groupe2(3,[5,True,3,0,9,0,0,0,6,0,0],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([3,5,True,3,0,9,0,0,0,6,0,0],3,[5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1028)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,5,True,3,0,9,0,0,0,6,0,0],3,[5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1020 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1022)
+Trace: >> RETURN: groupe2(0,[3,5,True,3,0,9,0,0,0,6,0,0],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,3,5,True,3,0,9,0,0,0,6,0,0],0,[3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1021)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,5,True,3,0,9,0,0,0,6,0,0],0,[3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1013 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1015)
+Trace: >> RETURN: groupe2(0,[0,3,5,True,3,0,9,0,0,0,6,0,0],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1014)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$1006 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(7,[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1008)
+Trace: >> RETURN: groupe2(7,[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],7,[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1007)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([7,0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],7,[0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$999 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,0,0,5,3,0,6,0,0,0,9,8],[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$1001)
+Trace: >> RETURN: groupe2(0,[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$1000)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$992 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,0,5,3,0,6,0,0,0,9,8],[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$994)
+Trace: >> RETURN: groupe2(0,[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,5,3,0,6,0,0,0,9,8],OUTVX2$993)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$985 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,0,5,3,0,6,0,0,0,9,8],[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$987)
+Trace: >> RETURN: groupe2(0,[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,5,3,0,6,0,0,0,9,8],OUTVX2$986)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,0,5,3,0,6,0,0,0,9,8],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: TAIL_NEW$978 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([0,5,3,0,6,0,0,0,9,8],[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: groupe2(0,[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],OUTVX1$980)
+Trace: >> RETURN: groupe2(0,[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: groupe2_car_atom_cdr_atom_cons_atom_append_lis([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,3,0,6,0,0,0,9,8],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,5,3,0,6,0,0,0,9,8],OUTVX2$979)
+Trace: >> RETURN: let_star2([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: let_star2_groupe2([0,5,3,0,6,0,0,0,9,8],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],0,[0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: APP2$849 = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: condition_if_check_is_equal_let_star2([5,3,0,6,0,0,0,9,8],[0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> RETURN: append_lis([0,0,0,0,7,0,0,3,5,True,3,0,9,0,0,0,6,0,0],[5,3,0,6,0,0,0,9,8],[0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elems([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIS3$850)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],LIS3$850)
+Trace: >> CALL: check_is_equal([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1108)
+Trace: >> CALL: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1109,TAIL$1110,HEAD_NEW$1111,TAIL_NEW$1112,OUTVX2$1113)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1109,TAIL$1110,HEAD_NEW$1111,TAIL_NEW$1112,OUTVX1$1114)
+Trace: >> CALL: car_atom([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1109)
+Trace: >> RETURN: car_atom([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1110)
+Trace: >> RETURN: cdr_atom([0,0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1111)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1111)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1115)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1111)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1111 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1112)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1112)
+Trace: >> CALL: check_is_equal([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1116)
+Trace: >> CALL: [0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1117,TAIL$1118,HEAD_NEW$1119,TAIL_NEW$1120,OUTVX2$1121)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1117,TAIL$1118,HEAD_NEW$1119,TAIL_NEW$1120,OUTVX1$1122)
+Trace: >> CALL: car_atom([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1117)
+Trace: >> RETURN: car_atom([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1118)
+Trace: >> RETURN: cdr_atom([0,6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1119)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1119)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1123)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1119)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1119 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1120)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1120)
+Trace: >> CALL: check_is_equal([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1124)
+Trace: >> CALL: [6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1125,TAIL$1126,HEAD_NEW$1127,TAIL_NEW$1128,OUTVX2$1129)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1125,TAIL$1126,HEAD_NEW$1127,TAIL_NEW$1128,OUTVX1$1130)
+Trace: >> CALL: car_atom([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1125)
+Trace: >> RETURN: car_atom([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],6)
+Trace: >> CALL: cdr_atom([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1126)
+Trace: >> RETURN: cdr_atom([6,0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(6,HEAD_NEW$1127)
+Trace: >> CALL: condition_if_bigger_than(6,HEAD_NEW$1127)
+Trace: >> CALL: bigger_than(6,0,OUTVX1$1131)
+Trace: >> CALL: 6 > 0
+Trace: >> RETURN: 6 > 0
+Trace: >> RETURN: bigger_than(6,0,True)
+Trace: >> CALL: condition_if(True,6,empty_atom,HEAD_NEW$1127)
+Trace: >> CALL: True = True
+Trace: >> RETURN: True = True
+Trace: >> CALL: HEAD_NEW$1127 = 6
+Trace: >> RETURN: 6 = 6
+Trace: >> RETURN: condition_if(True,6,empty_atom,6)
+Trace: >> RETURN: condition_if_bigger_than(6,6)
+Trace: >> RETURN: filter_elem(6,6)
+Trace: >> CALL: filter_elems([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1128)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1128)
+Trace: >> CALL: check_is_equal([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1132)
+Trace: >> CALL: [0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1133,TAIL$1134,HEAD_NEW$1135,TAIL_NEW$1136,OUTVX2$1137)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1133,TAIL$1134,HEAD_NEW$1135,TAIL_NEW$1136,OUTVX1$1138)
+Trace: >> CALL: car_atom([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1133)
+Trace: >> RETURN: car_atom([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1134)
+Trace: >> RETURN: cdr_atom([0,0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1135)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1135)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1139)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1135)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1135 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1136)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1136)
+Trace: >> CALL: check_is_equal([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1140)
+Trace: >> CALL: [0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1141,TAIL$1142,HEAD_NEW$1143,TAIL_NEW$1144,OUTVX2$1145)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1141,TAIL$1142,HEAD_NEW$1143,TAIL_NEW$1144,OUTVX1$1146)
+Trace: >> CALL: car_atom([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1141)
+Trace: >> RETURN: car_atom([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1142)
+Trace: >> RETURN: cdr_atom([0,0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1143)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1143)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1147)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1143)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1143 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1144)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1144)
+Trace: >> CALL: check_is_equal([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1148)
+Trace: >> CALL: [0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1149,TAIL$1150,HEAD_NEW$1151,TAIL_NEW$1152,OUTVX2$1153)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1149,TAIL$1150,HEAD_NEW$1151,TAIL_NEW$1152,OUTVX1$1154)
+Trace: >> CALL: car_atom([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1149)
+Trace: >> RETURN: car_atom([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1150)
+Trace: >> RETURN: cdr_atom([0,9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1151)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1151)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1155)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1151)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1151 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1152)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1152)
+Trace: >> CALL: check_is_equal([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1156)
+Trace: >> CALL: [9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1157,TAIL$1158,HEAD_NEW$1159,TAIL_NEW$1160,OUTVX2$1161)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1157,TAIL$1158,HEAD_NEW$1159,TAIL_NEW$1160,OUTVX1$1162)
+Trace: >> CALL: car_atom([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1157)
+Trace: >> RETURN: car_atom([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],9)
+Trace: >> CALL: cdr_atom([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1158)
+Trace: >> RETURN: cdr_atom([9,0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(9,HEAD_NEW$1159)
+Trace: >> CALL: condition_if_bigger_than(9,HEAD_NEW$1159)
+Trace: >> CALL: bigger_than(9,0,OUTVX1$1163)
+Trace: >> CALL: 9 > 0
+Trace: >> RETURN: 9 > 0
+Trace: >> RETURN: bigger_than(9,0,True)
+Trace: >> CALL: condition_if(True,9,empty_atom,HEAD_NEW$1159)
+Trace: >> CALL: True = True
+Trace: >> RETURN: True = True
+Trace: >> CALL: HEAD_NEW$1159 = 9
+Trace: >> RETURN: 9 = 9
+Trace: >> RETURN: condition_if(True,9,empty_atom,9)
+Trace: >> RETURN: condition_if_bigger_than(9,9)
+Trace: >> RETURN: filter_elem(9,9)
+Trace: >> CALL: filter_elems([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1160)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1160)
+Trace: >> CALL: check_is_equal([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1164)
+Trace: >> CALL: [0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1165,TAIL$1166,HEAD_NEW$1167,TAIL_NEW$1168,OUTVX2$1169)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1165,TAIL$1166,HEAD_NEW$1167,TAIL_NEW$1168,OUTVX1$1170)
+Trace: >> CALL: car_atom([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1165)
+Trace: >> RETURN: car_atom([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],0)
+Trace: >> CALL: cdr_atom([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1166)
+Trace: >> RETURN: cdr_atom([0,3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(0,HEAD_NEW$1167)
+Trace: >> CALL: condition_if_bigger_than(0,HEAD_NEW$1167)
+Trace: >> CALL: bigger_than(0,0,OUTVX1$1171)
+Trace: >> CALL: 0 > 0
+Trace: >> FAIL: 0 > 0
+Trace: >> RETURN: bigger_than(0,0,False)
+Trace: >> CALL: condition_if(False,0,empty_atom,HEAD_NEW$1167)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> CALL: HEAD_NEW$1167 = empty_atom
+Trace: >> RETURN: empty_atom = empty_atom
+Trace: >> RETURN: condition_if(False,0,empty_atom,empty_atom)
+Trace: >> RETURN: condition_if_bigger_than(0,empty_atom)
+Trace: >> RETURN: filter_elem(0,empty_atom)
+Trace: >> CALL: filter_elems([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1168)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1168)
+Trace: >> CALL: check_is_equal([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1172)
+Trace: >> CALL: [3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1173,TAIL$1174,HEAD_NEW$1175,TAIL_NEW$1176,OUTVX2$1177)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1173,TAIL$1174,HEAD_NEW$1175,TAIL_NEW$1176,OUTVX1$1178)
+Trace: >> CALL: car_atom([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1173)
+Trace: >> RETURN: car_atom([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],3)
+Trace: >> CALL: cdr_atom([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1174)
+Trace: >> RETURN: cdr_atom([3,True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(3,HEAD_NEW$1175)
+Trace: >> CALL: condition_if_bigger_than(3,HEAD_NEW$1175)
+Trace: >> CALL: bigger_than(3,0,OUTVX1$1179)
+Trace: >> CALL: 3 > 0
+Trace: >> RETURN: 3 > 0
+Trace: >> RETURN: bigger_than(3,0,True)
+Trace: >> CALL: condition_if(True,3,empty_atom,HEAD_NEW$1175)
+Trace: >> CALL: True = True
+Trace: >> RETURN: True = True
+Trace: >> CALL: HEAD_NEW$1175 = 3
+Trace: >> RETURN: 3 = 3
+Trace: >> RETURN: condition_if(True,3,empty_atom,3)
+Trace: >> RETURN: condition_if_bigger_than(3,3)
+Trace: >> RETURN: filter_elem(3,3)
+Trace: >> CALL: filter_elems([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1176)
+Trace: >> CALL: condition_if_check_is_equal_let_star0([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL_NEW$1176)
+Trace: >> CALL: check_is_equal([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,OUTVX1$1180)
+Trace: >> CALL: [True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> FAIL: [True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8] = []
+Trace: >> CALL: empty_atom = [True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> FAIL: empty_atom = [True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8]
+Trace: >> RETURN: check_is_equal([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: False = True
+Trace: >> FAIL: False = True
+Trace: >> REDO: check_is_equal([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> FAIL: check_is_equal([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],empty_atom,False)
+Trace: >> CALL: let_star0_groupe0_cons_atom([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1181,TAIL$1182,HEAD_NEW$1183,TAIL_NEW$1184,OUTVX2$1185)
+Trace: >> CALL: groupe0_car_atom_cdr_atom_filter_elem_filter_elems([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1181,TAIL$1182,HEAD_NEW$1183,TAIL_NEW$1184,OUTVX1$1186)
+Trace: >> CALL: car_atom([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],HEAD$1181)
+Trace: >> RETURN: car_atom([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],True)
+Trace: >> CALL: cdr_atom([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],TAIL$1182)
+Trace: >> RETURN: cdr_atom([True,5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8],[5,3,0,0,7,0,0,0,0,5,3,0,6,0,0,0,9,8])
+Trace: >> CALL: filter_elem(True,HEAD_NEW$1183)
+Trace: >> CALL: condition_if_bigger_than(True,HEAD_NEW$1183)
+Trace: >> CALL: bigger_than(True,0,OUTVX1$1187)
+Trace: >> CALL: True > 0
