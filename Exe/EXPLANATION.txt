@@ -1,0 +1,22 @@
+1st arg : Main_term_head_type = default = 0.
+
+example 1 current_transpile_model(0,201,204,202,1).
+example 2 current_transpile_model(0,201,204,202,1).
+preserve_metta_output_var = 204. keep_all = 202.
+
+1st arg : Main_term_head_type = remove_metta_outpvar_and_created = 203.
+
+example 7  current_transpile_model(203,201,204,204,1).	
+
+3rd arg : Subclauses_head_type = keep_all = 202.
+
+example 10 current_transpile_model(203,201,202,202,1).
+example 12 current_transpile_model(203,201,202,202,1).
+
+3rd arg : Subclauses_head_type = remove_metta_outpvar_and_created = 203.
+
+example 3  current_transpile_model(203,201,203,203,1).
+example 4  current_transpile_model(203,201,203,203,1).
+example 6  current_transpile_model(203,201,203,203,1).
+example 11 current_transpile_model(203,201,203,203,1).
+example 13 current_transpile_model(203,201,203,203,1).
