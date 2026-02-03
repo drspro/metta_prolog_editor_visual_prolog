@@ -1,0 +1,25 @@
+﻿#include @"trans_profile\trans_profile.ph"
+
+#requires @"trans_profile\trans_profile.dlg"
+
+% privately used packages
+#include @"pfc\string\string.ph"
+#include @"bigstr\bigstr.ph"
+#include @"pfc\boolean\boolean.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"safePie\safePie.ph"
+#include @"pfc\pie\pie.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\checkButton\checkButton.ph"
+#include @"pfc\gui\controls\listControl\listControl.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+% private classes
+% implementations
+#include @"trans_profile\trans_profile.pro"
