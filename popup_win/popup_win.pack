@@ -1,0 +1,17 @@
+﻿#include @"popup_win\popup_win.ph"
+
+#requires @"popup_win\popup_win.dlg"
+
+% privately used packages
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+% private classes
+% implementations
+#include @"popup_win\popup_win.pro"
