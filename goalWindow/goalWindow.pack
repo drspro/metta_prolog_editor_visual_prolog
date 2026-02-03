@@ -1,0 +1,25 @@
+﻿% own pack
+#include @"goalWindow\goalwindow.ph"
+
+% privately used packages
+#include @"configuration\Configuration.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"pfc\gui\controls\messageControl\messagecontrol.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\windowsApi\sciLexer_api\scilexer_api.ph"
+#include @"safePie\safepie.ph"
+#include @"taskWindow\taskwindow.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"goalWindow\goalWindow.pro"
+#include @"goalWindow\outputStream_processEvents.pro"
+
