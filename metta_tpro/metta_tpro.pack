@@ -1,0 +1,18 @@
+﻿#include @"metta_tpro\metta_tpro.ph"
+
+% #include @"pfc\pie\pie.ph"
+
+
+% privately used packages
+#include @"pfc\list\list.ph"
+#include @"pfc\gui\clipboard\clipboard.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\5xVIP\5xPlatformSupport\5xPlatformSupport.ph"
+#include @"pfc\5xVIP\5xFile\5xFile.ph"
+#include @"pfc\5xVIP\5xString\5xString.ph"
+#include @"pfc\5xVIP\5xConversion\5xConversion.ph"
+% private interfaces
+% private classes
+% implementations
+#include @"metta_tpro\metta_tpro.pro"
