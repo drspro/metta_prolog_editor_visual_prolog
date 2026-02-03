@@ -1,0 +1,39 @@
+﻿#requires @"pfc\gui\controls\sciLexer\sciLexerSupport\findAndReplaceControl.ctl"
+
+% own pack
+#include @"pfc\gui\controls\sciLexer\sciLexerSupport\sciLexerSupport.ph"
+
+% privately used packages
+#include @"pfc\collection\M\varM\varM.ph"
+#include @"pfc\boolean\boolean.ph"
+#include @"pfc\core.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\controls\checkButton\checkButton.ph"
+#include @"pfc\gui\controls\controlSupport\controlSupport.ph"
+#include @"pfc\gui\controls\editControl\editControl.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\listControl\listControl.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\memory\memory.ph"
+#include @"pfc\std\std.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\windowsApi\gui_api\gui_api.ph"
+#include @"pfc\windowsApi\sciLexer_api\sciLexer_api.ph"
+#include @"pfc\windowsApi\uxTheme_api\uxTheme_api.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\gui\controls\sciLexer\sciLexerSupport\findAndReplaceControl.pro"
+#include @"pfc\gui\controls\sciLexer\sciLexerSupport\incrementalFindDialog.pro"
+

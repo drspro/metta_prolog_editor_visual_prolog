@@ -1,0 +1,17 @@
+﻿% own pack
+#include @"pfc\gui\controls\sciLexer\sciLexerStatusBar\sciLexerStatusBar.ph"
+
+% privately used packages
+#include @"pfc\event\event.ph"
+#include @"pfc\gui\controls\sciLexer\sciLexer.ph"
+#include @"pfc\gui\controls\statusBarControl\statusBarControl.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\string\string.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\gui\controls\sciLexer\sciLexerStatusBar\sciLexerStatusBar.pro"
+
