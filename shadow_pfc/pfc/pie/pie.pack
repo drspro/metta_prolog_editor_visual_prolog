@@ -1,0 +1,32 @@
+﻿% own pack
+#include @"pfc\pie\pie.ph"
+
+% privately used packages
+#include @"pfc\gui\clipboard\clipboard.ph"
+#include @"bigstr\bigstr.ph"
+#include @"pfc\5xVIP\5xConversion\5xConversion.ph"
+#include @"pfc\5xVIP\5xFile\5xFile.ph"
+#include @"pfc\5xVIP\5xString\5xString.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\core.ph"
+#include @"pfc\exception\exception.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\pie\output\output.ph"
+#include @"pfc\pie\parser\parser.ph"
+#include @"pfc\pie\pieSupport\piesupport.ph"
+#include @"pfc\pie\scanner\Scanner.ph"
+#include @"pfc\programControl\programControl.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\pie\environment2.pro"
+#include @"pfc\pie\pie.pro"
+#include @"pfc\pie\variable.pro"
+

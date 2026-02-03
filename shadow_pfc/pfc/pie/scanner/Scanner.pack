@@ -1,0 +1,16 @@
+﻿% own pack
+#include @"pfc\pie\scanner\Scanner.ph"
+
+% privately used packages
+#include @"pfc\core.ph"
+#include @"pfc\pie\pie.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\windowsApi\string_api\string_api.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\pie\scanner\scanner.pro"
+

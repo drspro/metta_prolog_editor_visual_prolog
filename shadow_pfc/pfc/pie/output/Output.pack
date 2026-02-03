@@ -1,0 +1,17 @@
+﻿% own pack
+#include @"pfc\pie\output\output.ph"
+
+% privately used packages
+#include @"pfc\pie\parser\parser.ph"
+#include @"pfc\pie\pie.ph"
+#include @"pfc\pie\scanner\Scanner.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\pie\output\output.pro"
+

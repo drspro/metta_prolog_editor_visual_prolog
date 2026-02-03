@@ -1,0 +1,32 @@
+﻿% own pack
+#include @"pfc\pie\pieSupport\piesupport.ph"
+
+% privately used packages
+#include @"pfc\collection\algebraic\redBlackTree\redBlackTree.ph"
+#include @"pfc\core.ph"
+#include @"pfc\exception\exception.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\pie\parser\parser.ph"
+#include @"pfc\pie\pie.ph"
+#include @"pfc\std\std.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\time\time.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\windowsApi\fileSystem_api\fileSystem_api.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"pfc\pie\pieSupport\clauseBase.pro"
+#include @"pfc\pie\pieSupport\clauseChain.pro"
+#include @"pfc\pie\pieSupport\resetPointClass.pro"
+#include @"pfc\pie\pieSupport\stdpredicate.pro"
+#include @"pfc\pie\pieSupport\sTermCreator.pro"
+#include @"pfc\pie\pieSupport\tellseesupport.pro"
+
