@@ -1,0 +1,16 @@
+﻿% own pack
+#include @"taskWindow\Toolbars\Toolbars.ph"
+
+% privately used packages
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\vpi\vpiToolbar\vpiToolbar.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"taskWindow\Toolbars\ProjectToolbar.pro"
+#include @"taskWindow\Toolbars\StatusLine.pro"
+
